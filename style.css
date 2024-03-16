@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vmin;
+  background-color: #e0e0e0;
+  font-family: "Bree Serif", serif;
+  overflow: hidden;
+}
+
+.container {
+  background-color: #e0e0e0;
+  min-width: 80vmin;
+  height: 65vmin;
+  border-radius: 2rem;
+  padding: 1rem;
+  font-size: 1rem;
+  /* border-radius: 50px; */
+background: linear-gradient(145deg, #cacaca, #f0f0f0);
+box-shadow:  20px 20px 60px #636363,
+             -20px -20px 60px #ffffff;
+   
+}
+
+h2 {
+  text-align: center;
+  font-size: 45px;
+  font-family: "Bree Serif", serif;
+  font-weight: 100;
+
+}
+
+form {
+  /* background-color: red; */
+  min-height: 50vmin;
+  margin: 2rem 0 1rem 0;
+}
+
+form input,
+select,
+button {
+  width: 100%;
+  /* border: none; */
+  border-radius: 0.75rem;
+  outline: none;
+  background-color: #e0e0e0;
+}
+
+input {
+  /* border: 2px solid lightgray; */
+  height: 3rem;
+  font-size: x-large;
+  border: 2px solid white;
+  padding-left: 0.3rem;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: space-betweens;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 5rem;
+}
+
+.select_country img {
+  width: 2.5rem;
+}
+
+.select_country {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.75rem;
+  padding-left: 0.5rem;
+  /* border-color: red; */
+}
+
+.select_country select {
+  width: 10rem;
+  border: none;
+  outline: none;
+  border: 2px solid white;
+  color: black;
+  height: 2rem;
+}
+
+.msg {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  margin-top: 1rem;
+  /* background-color: red; */
+}
+
+.submit {
+  height: 4rem;
+  width: 80%;
+  background-color: #49108b;
+  color: white;
+  margin-left: 3.5rem;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: white;
+  color: #49108b;
+  border: 3px solid #49108b;
+}
